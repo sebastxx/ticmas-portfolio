@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+*{
+    font-family: 'Pangolin', 'Comic Sans MS', cursive, sans-serif;
+}
+
+body{
+    background: url(../assets/img/background.webp);
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    width: 150px;
+}
+
+.navbar{
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.navtitle{
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.contenedor{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 0 0 10px rgba(255, 217, 15, 1);
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 0 0 10px rgba(255, 217, 15, 1);
+
+}
+
+h2{
+    color: #000000;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary{
+    background-color: #FFD90F;
+    border: none;
+}
+
+.row{
+    align-items: center;
+}
+
+.nav-link:hover{
+    color: #FFD90F;
+}
+
+.card{
+    margin-top: 1rem;
+}
+
+.bi-instagram, 
+.bi-facebook, 
+.bi-whatsapp,
+.bi-github{
+    color: #000;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.bi-search{
+    color: #FFD90F;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.bi-chevron-left, 
+.bi-chevron-right{
+    color: #c4a910;
+    font-size: 1.5rem;
+}
+
+.bi-chevron-left:hover, 
+.bi-chevron-right:hover{
+    color: #424242;
+    font-size: 1.5rem;
+}
+
+.form{
+    text-align: center;
+}
+
+.form-item{
+    margin-top: 0.4rem
+}
+
+.btn-secondary{
+    background-color: #FFD90F;
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: #c4a910;
+    border: none;
+}
+
+.form-input,
+.form-textarea{
+    background-color: #f1d3e1;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+table, 
+th, 
+td, 
+tr,
+.table-secondary{
+    border: 1px solid #FFD90F;
+}
+
+td{
+    width: 30%;
+}
+
+.table{
+    margin-top: 1rem;
+}
+
+strong{
+    font-size: 1.5rem;
+}
+
+.details{
+    margin-top: 5rem;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#experiencia,
+#educacion,
+#certificaciones,
+#proyectos{
+    margin: 5% auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 24px;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+
